@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+html{
+
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/login-2.jpg);
+    background-position: center;
+    background-size: cover;
+
+}
+
+h2{
+    text-align: center;
+    color: aliceblue;
+    margin-top: 60px;
+    color: dodgerblue;
+}
+
+.container{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+
+.login{
+    padding: 100px;
+    background: rgb(50, 50, 50);
+    border-radius: 20px;
+}
+
+.form{
+    padding: 10px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    width: 250px;
+    color: white;
+}
+
+.button{
+    border-radius: 20px;
+    background: dodgerblue;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border: none;
+    color: white;
+    margin-left: 85px;
+    cursor: pointer;
+}
+
+a{
+   text-decoration: none;
+   padding-bottom: 5px;
+   font-size: 15px;
+   color: dodgerblue;
+}
+
+
+.footer{
+   /* border: 2px solid white;*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    margin-top: 500px;
+    background: rgba(50, 50, 50, 0.7);
+    position: relative;
+}
+  
+.nav li{
+    /*border: 1px solid blue;*/
+    padding: 20px ;
+    display: inline-block;
+
+}
+
+a{
+    color: aliceblue;
+}
+
+.av{
+    position: absolute;
+    left: 0;
+}
+
+.av1{
+    position: absolute;
+    left: 200px;
+}
+
+.av2{
+    position: absolute;
+    left: 400px;
+}
+
+.av3{
+    position: absolute;
+    left: 650px;
+}
+
+.av4{
+    position: absolute;
+    left: 850px;
+}
+
+.av5{
+    position: absolute;
+    left: 1150px;
+}
